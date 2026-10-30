@@ -7,7 +7,13 @@ Step 1 of 4
 
 ## 📨 The details you receive
 
-Before the session, you receive your UiPath Labs details. They come in two parts. Keep both open in a browser tab: you'll copy from them in the next steps.
+Before the session, each participant receives an email like this one from **UiPath Labs** (`UiPathlabs@uipath.com`), with the subject **Workshop Invitation:** and the workshop's name. It gives the date and the trainer of your workshop.
+
+![The Workshop Invitation email from UiPath Labs, with the workshop name, date, trainer, an Access Workshop button, and the workshop link](images/workshop-invitation-email.png){ .screenshot width="480" }
+
+Select **Access Workshop**, or copy the link from the email into Chrome, to open your UiPath Labs details. Don't forward the email: the link is yours.
+
+Your details come in two parts. Keep both open in a browser tab: you'll copy from them in the next steps.
 
 <div class="feature-grid" markdown>
 

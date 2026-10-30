@@ -7,7 +7,13 @@
 
 ## 📨 你会收到的信息 { #the-details-you-receive }
 
-课程开始前，你会收到你的 UiPath Labs 信息。信息分为两部分。把两部分都在浏览器标签页中打开：接下来的步骤里你要从中复制内容。
+课程开始前，每位学员都会收到一封类似下图的邮件，发件人是 **UiPath Labs**（`UiPathlabs@uipath.com`），主题为 **Workshop Invitation:** 加上工作坊名称。邮件中写明了工作坊的日期和讲师。
+
+![UiPath Labs 发送的 Workshop Invitation 邮件，包含工作坊名称、日期、讲师、Access Workshop 按钮和工作坊链接](images/workshop-invitation-email.png){ .screenshot width="480" }
+
+选择 **Access Workshop**，或者把邮件中的链接复制到 Chrome 中，打开你的 UiPath Labs 信息。不要转发这封邮件：这个链接只属于你。
+
+你的信息分为两部分。把两部分都在浏览器标签页中打开：接下来的步骤里你要从中复制内容。
 
 <div class="feature-grid" markdown>
 
