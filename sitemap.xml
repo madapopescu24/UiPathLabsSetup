@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://madapopescu24.github.io/UiPathLabsSetup/</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://madapopescu24.github.io/UiPathLabsSetup/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://madapopescu24.github.io/UiPathLabsSetup/zh/"/>
+    </url>
+    <url>
+        <loc>https://madapopescu24.github.io/UiPathLabsSetup/before-you-start/</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://madapopescu24.github.io/UiPathLabsSetup/before-you-start/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://madapopescu24.github.io/UiPathLabsSetup/zh/before-you-start/"/>
+    </url>
+    <url>
+        <loc>https://madapopescu24.github.io/UiPathLabsSetup/connect-to-your-vm/</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://madapopescu24.github.io/UiPathLabsSetup/connect-to-your-vm/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://madapopescu24.github.io/UiPathLabsSetup/zh/connect-to-your-vm/"/>
+    </url>
+    <url>
+        <loc>https://madapopescu24.github.io/UiPathLabsSetup/sign-in/</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://madapopescu24.github.io/UiPathLabsSetup/sign-in/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://madapopescu24.github.io/UiPathLabsSetup/zh/sign-in/"/>
+    </url>
+    <url>
+        <loc>https://madapopescu24.github.io/UiPathLabsSetup/troubleshooting/</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://madapopescu24.github.io/UiPathLabsSetup/troubleshooting/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://madapopescu24.github.io/UiPathLabsSetup/zh/troubleshooting/"/>
+    </url>
+    <url>
+        <loc>https://madapopescu24.github.io/UiPathLabsSetup/zh/</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://madapopescu24.github.io/UiPathLabsSetup/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://madapopescu24.github.io/UiPathLabsSetup/"/>
+    </url>
+    <url>
+        <loc>https://madapopescu24.github.io/UiPathLabsSetup/zh/before-you-start/</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://madapopescu24.github.io/UiPathLabsSetup/zh/before-you-start/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://madapopescu24.github.io/UiPathLabsSetup/before-you-start/"/>
+    </url>
+    <url>
+        <loc>https://madapopescu24.github.io/UiPathLabsSetup/zh/connect-to-your-vm/</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://madapopescu24.github.io/UiPathLabsSetup/zh/connect-to-your-vm/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://madapopescu24.github.io/UiPathLabsSetup/connect-to-your-vm/"/>
+    </url>
+    <url>
+        <loc>https://madapopescu24.github.io/UiPathLabsSetup/zh/sign-in/</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://madapopescu24.github.io/UiPathLabsSetup/zh/sign-in/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://madapopescu24.github.io/UiPathLabsSetup/sign-in/"/>
+    </url>
+    <url>
+        <loc>https://madapopescu24.github.io/UiPathLabsSetup/zh/troubleshooting/</loc>
+        <lastmod>2026-10-30</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://madapopescu24.github.io/UiPathLabsSetup/zh/troubleshooting/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://madapopescu24.github.io/UiPathLabsSetup/troubleshooting/"/>
+    </url>
+</urlset>
