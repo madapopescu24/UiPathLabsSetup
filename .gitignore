@@ -1,0 +1,6 @@
+site/
+.cache/
+__pycache__/
+*.pyc
+mkdocs.local.yml
+.DS_Store
