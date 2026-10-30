@@ -1,6 +1,6 @@
 site_name: UiPath Labs Setup
 site_url: https://madapopescu24.github.io/UiPathLabsSetup/
-site_description: How to get your UiPath Labs workshop environment ready, from the VM to the coding agent and the uip CLI
+site_description: "How to get your UiPath Labs workshop environment ready: the VM, the workshop account, and the tenant"
 
 theme:
   name: material
@@ -52,7 +52,6 @@ plugins:
             Before You Start: 开始之前
             Connect to Your VM: 连接到虚拟机
             Sign In: 登录
-            Coding Agent and CLI: 编码智能体与 CLI
             Troubleshooting: 故障排除
   - macros:
       module_name: main
@@ -81,7 +80,6 @@ nav:
   - Before You Start: before-you-start.md
   - Connect to Your VM: connect-to-your-vm.md
   - Sign In: sign-in.md
-  - Coding Agent and CLI: coding-agent-and-cli.md
   - Troubleshooting: troubleshooting.md
 
 extra_css:

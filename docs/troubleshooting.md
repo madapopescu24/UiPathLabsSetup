@@ -10,7 +10,7 @@ Help
 <div class="fix-grid" markdown>
 
 <div class="fix" markdown>
-<span class="f-title" markdown="span">🚨 Ctrl+V doesn't paste into the VM</span>
+<span class="f-title" markdown="span">🚨 Ctrl+V doesn't paste into the VM in Azure Bastion</span>
 
 <span class="lbl">Cause</span> Chrome on your own machine blocks the Bastion site from your clipboard
 
@@ -19,11 +19,11 @@ Help
 </div>
 
 <div class="fix" markdown>
-<span class="f-title" markdown="span">🚨 The Bastion login fails</span>
+<span class="f-title" markdown="span">🚨 Signing in to the VM fails</span>
 
-<span class="lbl">Cause</span> The username or password isn't the VM's, for example the workshop account's
+<span class="lbl">Cause</span> The username or password isn't the VM's, for example the workshop account's, or the password was typed by hand
 
-<span class="lbl">Fix</span> Copy the **Username** and **Password** from your VM details with the copy buttons, and try again
+<span class="lbl">Fix</span> Enter the **Username** from **Sandbox sign-in** (`admin_1`), paste the **Password** with its copy button, and try again
 
 </div>
 
@@ -38,16 +38,25 @@ Help
 
 <span class="lbl">Cause</span> Chrome reused an account it already knew
 
-<span class="lbl">Fix</span> Sign out, then sign in with **Continue with Microsoft** and the username from **Your Workshop Account**
+<span class="lbl">Fix</span> Sign out, then sign in with **Continue with Microsoft** and the **Username** from **UiPath sign-in**
 
 </div>
 
 <div class="fix" markdown>
-<span class="f-title" markdown="span">🚨 Studio Web shows another tenant</span>
+<span class="f-title" markdown="span">🚨 A workshop tenant is missing from the Tenant picker</span>
+
+<span class="lbl">Cause</span> You're signed in with another account, or your workshop account wasn't added to that tenant
+
+<span class="lbl">Fix</span> Check that you signed in with the **Username** from **UiPath sign-in**. If **{{ agentic_tenant }}** or **{{ training_tenant }}** is still missing, tell the trainer
+
+</div>
+
+<div class="fix" markdown>
+<span class="f-title" markdown="span">🚨 You're on another tenant</span>
 
 <span class="lbl">Cause</span> The account opened its last-used tenant
 
-<span class="lbl">Fix</span> Switch to **{{ training_tenant }}** in the tenant picker, in the upper-right corner
+<span class="lbl">Fix</span> In the **Tenant** picker, in the upper-right corner, switch to the tenant the trainer names: **{{ agentic_tenant }}** or **{{ training_tenant }}**
 
 </div>
 
@@ -56,58 +65,7 @@ Help
 
 <span class="lbl">Cause</span> A known Studio Web display issue
 
-<span class="lbl">Fix</span> Open Studio Web in a fresh tab, and check the tenant picker shows **{{ training_tenant }}**
-
-</div>
-
-</div>
-
-## 💻 Codex and the uip CLI
-
-<div class="fix-grid" markdown>
-
-<div class="fix" markdown>
-<span class="f-title" markdown="span">🚨 `uip login status` shows the wrong organization or tenant</span>
-
-<span class="lbl">Cause</span> The CLI is signed in somewhere else
-
-<span class="lbl">Fix</span> Run the `uip login` command from [Coding agent and CLI](coding-agent-and-cli.md#sign-the-uip-cli-in) again. If it still shows the wrong tenant, tell the trainer. Don't build anything on the wrong tenant.
-
-</div>
-
-<div class="fix" markdown>
-<span class="f-title" markdown="span">🚨 `uip` commands fail with DNS or *"fetch failed"* errors inside Codex</span>
-
-<span class="lbl">Cause</span> The Codex sandbox has no network access
-
-<span class="lbl">Fix</span> Exit Codex and start it again with network access: `codex -c sandbox_workspace_write.network_access=true`
-
-</div>
-
-<div class="fix" markdown>
-<span class="f-title" markdown="span">🚨 Codex doesn't know the UiPath skills</span>
-
-<span class="lbl">Cause</span> The skills aren't installed in the folder Codex runs in
-
-<span class="lbl">Fix</span> Ask Codex to run `uip skills install --agent codex --path . --repo https://github.com/UiPath/skills.git`, then restart Codex from the same folder
-
-</div>
-
-<div class="fix" markdown>
-<span class="f-title" markdown="span">🚨 `/status` shows another model</span>
-
-<span class="lbl">Cause</span> Codex started with its default model
-
-<span class="lbl">Fix</span> Type `/model`, pick the model and reasoning effort the trainer names, and check with `/status`. Don't carry on with another model without telling the trainer.
-
-</div>
-
-<div class="fix" markdown>
-<span class="f-title" markdown="span">🚨 Codex says it's waiting for something for minutes</span>
-
-<span class="lbl">Cause</span> It's polling a state that won't change
-
-<span class="lbl">Fix</span> Tell it to stop waiting and report what it has. Press **Esc** to interrupt it if needed.
+<span class="lbl">Fix</span> Open Studio Web in a fresh tab, and check the **Tenant** picker shows the tenant for your workshop
 
 </div>
 

@@ -1,8 +1,7 @@
 # UiPath Labs Setup
 
 A small MkDocs site that walks workshop participants through setting up their
-**UiPath Labs** environment: the VM, the workshop account, the tenant, the Codex
-coding agent, and the `uip` CLI. English and Simplified Chinese.
+**UiPath Labs** environment: the VM, the workshop account, and the tenant. English and Simplified Chinese.
 
 ## Structure
 

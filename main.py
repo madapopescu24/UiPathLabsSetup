@@ -4,8 +4,8 @@ MkDocs-macros module: injects the training-environment values into pages.
 Why this exists
 ---------------
 One environment profile:
-  - prod     -> cloud.uipath.com/tpenlabs, tenant AgenticTestingWorkshop. The
-                participant environment. CI deploys with this profile.
+  - prod     -> cloud.uipath.com/tpenlabs, tenants AgenticTestingWorkshop and
+                AgenticWorkshop. The participant environment. CI deploys with this profile.
 
 Pages reference the variables instead of hardcoding URLs/tenants, e.g.:
 
@@ -27,6 +27,7 @@ ENVIRONMENTS = {
         "training_authority": "https://cloud.uipath.com",
         "training_org": "tpenlabs",
         "training_tenant": "AgenticTestingWorkshop",
+        "agentic_tenant": "AgenticWorkshop",
         "training_folder": "AgenticTesting",
         "env_label": "UiPath Automation Cloud",
     },

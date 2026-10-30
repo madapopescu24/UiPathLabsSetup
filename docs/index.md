@@ -3,10 +3,10 @@ UiPath Partner Success · UiPath Labs
 
 # 🧪 UiPath Labs Setup
 
-**Get your UiPath Labs environment ready for a workshop: your VM, your workshop account, your tenant, your coding agent, and the `uip` CLI. Work through the tabs from left to right — each one ends with a check.**
+**Get your UiPath Labs environment ready for a workshop: your VM, your workshop account, and your tenant. Work through the tabs from left to right — each one ends with a check.**
 
 !!! tip "Training Environment"
-    Log in at **[{{ training_url }}]({{ training_url }})** using tenant **{{ training_tenant }}**.
+    Log in at **[{{ training_url }}]({{ training_url }})** with your workshop account. You work in the tenants **{{ agentic_tenant }}** and **{{ training_tenant }}**.
 
 ## 🎁 What UiPath Labs gives you
 
@@ -18,7 +18,7 @@ Everyone in the workshop gets the same ready-made environment, so nobody spends 
 <span class="f-icon">🖥️</span>
 <span class="f-title" markdown="span">A Windows VM</span>
 
-A virtual machine (VM) you open in your browser. **Chrome**, **UiPath Studio**, a terminal, the **Codex** coding agent, the **`uip` CLI**, and the **UiPath skills** are already installed.
+A virtual machine (VM) you open in your browser. **Chrome**, **UiPath Studio**, and the tools the workshop uses are already installed.
 
 </div>
 
@@ -32,9 +32,9 @@ A UiPath account made for the workshop. You sign in with it instead of your own 
 
 <div class="feature" markdown>
 <span class="f-icon">🏢</span>
-<span class="f-title" markdown="span">A workshop tenant</span>
+<span class="f-title" markdown="span">Two workshop tenants</span>
 
-The tenant **{{ training_tenant }}**, where Test Manager, Studio Web, and Orchestrator are ready for the exercises.
+The tenants **{{ agentic_tenant }}** and **{{ training_tenant }}**, where Test Manager, Studio Web, and Orchestrator are ready for the exercises.
 
 </div>
 
@@ -61,7 +61,7 @@ The two sets of details you receive, and what you need on your own machine
 
 **[Connect to your VM](connect-to-your-vm.md)**
 
-Open the VM in your browser through Azure Bastion
+Open the VM with Remote Desktop, or in your browser through Azure Bastion
 
 </div>
 </div>
@@ -79,17 +79,6 @@ Sign in to UiPath with your workshop account and confirm the tenant
 
 <div class="circle-item" markdown>
 <span class="num">4</span>
-<div class="ci-body" markdown>
-
-**[Coding agent and CLI](coding-agent-and-cli.md)**
-
-Start Codex, check its model, and sign the `uip` CLI in to the tenant
-
-</div>
-</div>
-
-<div class="circle-item" markdown>
-<span class="num">5</span>
 <div class="ci-body" markdown>
 
 **[Troubleshooting](troubleshooting.md)**
